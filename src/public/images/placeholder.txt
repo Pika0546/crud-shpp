@@ -1,0 +1,2 @@
+file để giữ chỗ cho cái folder không bị trống
+folder trống không đẩy lên git được

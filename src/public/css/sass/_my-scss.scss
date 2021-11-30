@@ -1,0 +1,101 @@
+.complete-order-badge{
+    display: block;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875em;
+    letter-spacing: 0.08em;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $button-compare;
+    border-radius: 4px;
+    border-bottom: 3px solid $button-compare-border;
+    text-align: center;
+    position: relative;
+}
+
+.cancel-order-badge{
+    display: block;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875em;
+    letter-spacing: 0.08em;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $button-no-stock;
+    border-radius: 4px;
+    border-bottom: 3px solid $button-no-stock-border;
+    text-align: center;
+    position: relative;
+}
+
+.delivering-order-badge{
+    display: block;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.875em;
+    letter-spacing: 0.08em;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: $button-primary;
+    border-radius: 4px;
+    border-bottom: 3px solid $button-primary-border;
+    text-align: center;
+    position: relative;
+}
+
+.my-cell{
+    vertical-align: middle !important;
+    padding: 10px 10px;
+    padding-top: 10px !important;
+    p{
+        margin-top: 0 !important;
+    }
+}
+
+.order-tab{
+
+}
+
+.order-status-tab{
+    background-color: $button-wishlist-border;
+    .my-content{
+        h1{
+            color: white;
+            
+            text-transform: none;
+            &:first-child{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+.my-buynow-btn{
+    width: 120px !important;
+    text-align: center !important;
+    padding-left: 0 !important;
+    background-color: $dribble-brand ;
+    border-bottom: 3px solid $dribble-brand-border;
+    &:hover{
+        background-color:$dribble-brand-hover !important;
+    }
+}
+
+.my-checkbox-all-label{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4e5c64;
+    font-size: 0.75em;
+    line-height: 35px;
+}
+
+.cell{
+    input[type="checkbox"]{
+        width: 20px;
+        height: 20px;
+    }
+}

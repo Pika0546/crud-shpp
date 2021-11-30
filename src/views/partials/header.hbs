@@ -1,0 +1,323 @@
+<header>
+		<div id="header-top-wrap">
+			<!-- HEADER TOP -->
+			<section id="header-top" class="clearfix">
+				<p class="contact">
+					Questions? Do you need help? Send us an email to: 
+					<a href="mailto:hkm19Team@gmail.com">hkm19Team@gmail.com</a>
+				</p>
+
+
+				{{!-- <p class="login">
+					Welcome visitor, if you have an account 
+					<a href="/account/register-login">Login</a>, or 
+					<a href="/account/register-login">Register</a>
+				</p> --}}
+				<!-- WESTEROS DROPDOWN CONTAINER-->
+				<div class="westeros-dropdown-container">
+					<p class="login logged">
+						<!-- SVG LOGGED -->
+						<svg class="svg-logged">
+							<use xlink:href="#svg-logged"></use>
+						</svg>
+						<!-- /SVG LOGGED -->
+						Welcome Back
+						<a href="/me/profile">Kudo Kohari</a>
+						<!-- SVG ARROW -->
+						<svg class="svg-arrow westeros-dropdown-control">
+							<use xlink:href="#svg-arrow"></use>
+						</svg>
+						<!-- /SVG ARROW -->
+					</p>
+					<!-- WESTEROS DROPDOWN -->
+					<ul class="westeros-dropdown default hide-on-click">
+						<li>
+							<a href="/me/profile">
+							<!-- SVG GEAR -->
+							<svg class="svg-gear">
+								<use xlink:href="#svg-gear"></use>	
+							</svg>
+							<!-- /SVG GEAR -->
+							Your Profile
+							</a>
+						</li>
+						{{!-- <li>
+							<a href="/me/wishlist">
+							<!-- SVG WISHLIST -->
+							<svg class="svg-wishlist">
+								<use xlink:href="#svg-wishlist"></use>	
+							</svg>
+							<!-- /SVG WISHLIST -->
+							Your Wishlist
+							</a>
+						</li> --}}
+						<li>
+							<a href="/me/cart">
+							<!-- SVG CART -->
+							<svg class="svg-cart">
+								<use xlink:href="#svg-cart"></use>	
+							</svg>
+							<!-- /SVG CART -->
+							Your Cart
+							</a>
+						</li>
+						<li>
+							<a href="/me/order">
+							<!-- SVG CART -->
+							<svg class="svg-cart">
+								<use xlink:href="#svg-cart"></use>	
+							</svg>
+							<!-- /SVG CART -->
+							Your order
+							</a>
+						</li>
+						<li>
+							<a href="/me/change-password">
+							<!-- SVG GEAR -->
+							<svg class="svg-gear">
+								<use xlink:href="#svg-gear"></use>	
+							</svg>
+							<!-- /SVG GEAR -->
+								Change Your Password
+							</a>
+						</li>
+						
+						<li>
+							<a href="/account/register-login">
+							<!-- SVG log out -->
+							<svg class="svg-logged" style="width: 11px; height: 11px">
+								<use xlink:href="#svg-logged"></use>
+							</svg>
+							<!-- /SVG log out -->
+							Sign out
+							</a>
+						</li>
+						
+					</ul>
+					<!-- /WESTEROS DROPDOWN -->
+				</div>
+				<!-- /WESTEROS DROPDOWN CONTAINER-->
+			</section>
+			<!-- /HEADER TOP -->
+		</div>
+			
+		<div id="header-bottom-wrap">
+			<!-- HEADER BOTTOM -->
+			<section id="header-bottom">
+				<!-- LOGO -->
+				<div class="logo-container">
+					<a href="/" class="logo">
+						<img src="/images/favicon.ico" alt="">
+						<div>
+							<h1>HKM</h1>
+						</div>
+					</a>
+					{{!-- <a href="/">
+						<figure class="logo">
+							<img src="/images/logo.png" alt="logo">
+							<figcaption>asdasd</figcaption>
+						</figure>
+						
+					</a> --}}
+				</div>
+				<!-- /LOGO -->
+				<form class="westeros-form">
+					<label for="categories" class="select-block">
+						<select name="categories" id="categories">
+							<option value="0">All Categories</option>
+							<option value="1">T-Shirts</option>
+							<option value="2">Backpacks</option>
+							<option value="3">Sneakers</option>
+							<option value="4">Caps</option>	
+						</select>
+						<!-- SVG ARROW -->
+						<svg class="svg-arrow select-arrow">
+							<use xlink:href="#svg-arrow"></use>
+						</svg>
+						<!-- /SVG ARROW -->
+					</label>
+					<input type="text" name="search" id="search" placeholder="Search Our Catalog...">
+					<input type="image" src="/images/icons/search-icon.png" alt="search-icon">
+				</form>
+
+				<!-- WESTEROS DROPDOWN CONTAINER-->
+				<div class="westeros-dropdown-container">
+					<!-- CART CONTROL -->
+					<div class="cart-control westeros-dropdown-control">
+						<!-- SVG ORDER BOX -->
+						<svg class="svg-order-box">
+							<use xlink:href="#svg-order-box"></use>
+						</svg>
+						<!-- /SVG ORDER BOX -->
+
+						<!-- SVG ARROW -->
+						<svg class="svg-arrow select-arrow">
+							<use xlink:href="#svg-arrow"></use>
+						</svg>
+						<!-- /SVG ARROW -->
+						<h6>Your Total Order</h6>
+						<p class="cart-content-short">(3)</p>
+						<p class="cart-content-long">3 item (s) -</p>
+						<p class="highlighted">$220.00</p>
+					</div>
+					<!-- /CART CONTROL -->
+
+					<!-- CART -->
+					<ul class="cart westeros-dropdown">
+						<!-- CART ITEM -->
+						<li class="item clearfix">
+							<div class="picture">
+								<figure class="liquid">
+									<img src="/images/items/02.png" alt="product1">
+								</figure>
+							</div>
+							<div class="description">
+								<p class="highlighted category">T-Shirts</p>
+								<h6>The Crazy Bunny</h6>
+							</div>
+							<div class="quantity">
+								<h6>1</h6>
+							</div>
+							<div class="price">
+								<p class="highlighted">$86.00</p>
+							</div>
+							<img src="/images/items/remove.png" alt="remove">
+						</li>
+						<!-- /CART ITEM -->
+
+						<!-- CART ITEM -->
+						<li class="item clearfix">
+							<div class="picture">
+								<figure class="liquid">
+									<img src="/images/items/33.png" alt="product1">
+								</figure>
+							</div>
+							<div class="description">							
+								<p class="highlighted category">Phone Cases</p>
+								<h6>I-Ladyskull</h6>
+							</div>
+							<div class="quantity">
+								<h6>2</h6>
+							</div>
+							<div class="price">
+								<p class="highlighted">$48.00</p>
+							</div>
+							<img src="/images/items/remove.png" alt="remove">
+						</li>
+						<!-- /CART ITEM -->
+
+						<!-- CART ITEM -->
+						<li class="item clearfix">
+							<div class="picture">
+								<figure class="liquid">
+									<img src="/images/items/32.png" alt="product1">
+								</figure>
+							</div>
+							<div class="description">									
+								<p class="highlighted category">Custom Sneakers</p>
+								<h6>The Devil Walks</h6>
+							</div>
+							<div class="quantity">
+								<h6>2</h6>
+							</div>
+							<div class="price">
+								<p class="highlighted">$86.00</p>
+							</div>
+							<img src="/images/items/remove.png" alt="remove">
+						</li>
+						<!-- /CART ITEM -->
+
+						<!-- TOTAL -->
+						<li class="total clearfix">
+							<div>
+								<h6>$220.00</h6>
+								<p class="highlighted">$220.00</p>
+							</div>
+							<div>
+								<h6>Subtotal</h6>
+								<h6>Total</h6>
+							</div>	
+						</li>
+						<!-- /TOTAL -->
+
+						<!-- ORDER -->
+						<li class="order clearfix">
+							<a href="/me/checkout" class="button">Checkout</a>
+							<a href="/me/cart" class="button secondary">Go to Cart</a>
+						</li>
+						<!-- /ORDER -->
+					</ul>
+					<!-- /CART -->
+				</div>
+				<!-- /WESTEROS DROPDOWN CONTAINER -->
+			</section>
+			<!-- /HEADER BOTTOM -->
+		</div>
+
+		<!-- WESTEROS SEPARATOR -->
+		<ul class="westeros-separator small">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<!-- /WESTEROS SEPARATOR -->
+	</header>
+	<!-- SVG GEAR -->
+<svg style="display: none;">
+	<symbol id="svg-gear" viewBox="0 0 10 10" preserveAspectRatio="xMinYMin meet">
+		<path d="M9.969,4.445c-0.016-0.141-0.18-0.246-0.322-0.246c-0.457,0-0.864-0.269-1.035-0.685
+			C8.438,3.087,8.55,2.59,8.892,2.277c0.107-0.098,0.12-0.263,0.03-0.377C8.688,1.602,8.421,1.333,8.13,1.1
+			C8.016,1.009,7.849,1.021,7.75,1.131c-0.299,0.33-0.834,0.453-1.248,0.28C6.072,1.23,5.801,0.793,5.827,0.325
+			C5.836,0.178,5.729,0.05,5.582,0.033C5.209-0.01,4.832-0.011,4.457,0.03C4.312,0.046,4.205,0.171,4.209,0.316
+			C4.226,0.78,3.951,1.208,3.525,1.383C3.116,1.55,2.584,1.429,2.287,1.102C2.189,0.994,2.024,0.98,1.91,1.07
+			C1.61,1.305,1.337,1.574,1.101,1.869C1.009,1.984,1.022,2.15,1.131,2.25c0.348,0.315,0.46,0.816,0.279,1.248
+			C1.238,3.908,0.811,4.173,0.322,4.173C0.164,4.168,0.051,4.274,0.034,4.418C-0.01,4.794-0.011,5.177,0.031,5.555
+			c0.016,0.142,0.185,0.246,0.328,0.246C0.795,5.79,1.213,6.06,1.388,6.486c0.175,0.426,0.063,0.923-0.28,1.236
+			C1.001,7.821,0.988,7.985,1.078,8.1C1.311,8.396,1.577,8.664,1.869,8.9C1.983,8.992,2.15,8.979,2.25,8.869
+			c0.299-0.33,0.834-0.453,1.247-0.279c0.432,0.18,0.703,0.616,0.676,1.084c-0.008,0.148,0.1,0.275,0.246,0.293
+			C4.609,9.988,4.801,10,4.994,10c0.183,0,0.365-0.01,0.549-0.03c0.145-0.017,0.252-0.142,0.248-0.286
+			C5.773,9.22,6.049,8.791,6.475,8.617c0.411-0.168,0.94-0.045,1.238,0.281C7.812,9.006,7.975,9.02,8.09,8.93
+			c0.299-0.234,0.571-0.503,0.809-0.799C8.991,8.016,8.979,7.85,8.869,7.75c-0.348-0.314-0.461-0.816-0.28-1.246
+			c0.17-0.406,0.581-0.679,1.022-0.679l0.063,0.002c0.143,0.012,0.275-0.099,0.293-0.245C10.01,5.206,10.011,4.824,9.969,4.445z
+			 M5.008,6.678c-0.919,0-1.667-0.748-1.667-1.667c0-0.92,0.748-1.668,1.667-1.668c0.92,0,1.668,0.748,1.668,1.668
+			C6.676,5.93,5.928,6.678,5.008,6.678z"/>
+	</symbol>
+</svg>
+<!-- /SVG GEAR -->
+
+<!-- SVG CART -->
+<svg style="display: none;">
+	<symbol id="svg-cart" viewBox="0 0 11 11" preserveAspectRatio="xMinYMin meet">
+		<path d="M10.885,3.302c-0.091-0.129-0.219-0.206-0.388-0.229L2.922,2.225L2.826,1.306
+			C2.81,1.192,2.767,1.092,2.698,1.003C2.63,0.914,2.543,0.854,2.438,0.821l-1.67-0.532C0.624,0.249,0.48,0.263,0.339,0.332
+			C0.198,0.4,0.103,0.511,0.055,0.664C0.014,0.818,0.028,0.963,0.097,1.1C0.166,1.237,0.276,1.33,0.43,1.378L1.736,1.79l0.46,4.622
+			L1.894,8.057C1.87,8.234,1.914,8.392,2.027,8.528c0.12,0.138,0.266,0.206,0.435,0.206h7.066c0.154,0,0.287-0.055,0.399-0.164
+			c0.112-0.108,0.169-0.243,0.169-0.404S10.04,7.87,9.928,7.761S9.683,7.597,9.528,7.597H3.14l0.133-0.749h6.702
+			c0.138,0,0.261-0.044,0.37-0.135c0.108-0.087,0.171-0.201,0.188-0.338l0.459-2.638C11.018,3.568,10.98,3.423,10.885,3.302z"/>
+		<path d="M3.322,9.049c-0.242,0-0.448,0.085-0.617,0.254C2.535,9.473,2.45,9.678,2.45,9.92
+			s0.085,0.45,0.254,0.623c0.169,0.174,0.375,0.261,0.617,0.261c0.242,0,0.447-0.087,0.617-0.261c0.17-0.173,0.254-0.381,0.254-0.623
+			S4.108,9.473,3.938,9.303C3.769,9.134,3.563,9.049,3.322,9.049z"/>
+		<path d="M8.488,9.049c-0.242,0-0.447,0.085-0.618,0.254C7.701,9.473,7.617,9.678,7.617,9.92
+			s0.084,0.45,0.253,0.623c0.171,0.174,0.376,0.261,0.618,0.261c0.241,0,0.448-0.087,0.617-0.261
+			c0.169-0.173,0.254-0.381,0.254-0.623S9.274,9.473,9.105,9.303C8.937,9.134,8.729,9.049,8.488,9.049z"/>
+	</symbol>
+</svg>
+<!-- /SVG CART -->
+<!-- SVG LOGGED -->
+<svg style="display: none;">
+	<symbol id="svg-logged" viewBox="0 0 12 13" preserveAspectRatio="xMinYMin meet">
+		<path d="M0,7.027c0-1.826,0.924-3.415,2.31-4.45c0.327-0.244,0.983-0.353,1.246-0.041
+			c0.164,0.193,0.222,0.426,0.229,0.646c0.012,0.408-0.41,0.904-0.701,1.191c-0.695,0.684-1.133,1.611-1.133,2.66
+			c0,2.194,1.778,3.856,3.971,3.856c2.195,0,3.973-1.662,3.973-3.856c0-1.117-0.426-2.099-1.136-2.794
+			c-0.292-0.286-0.687-0.79-0.623-1.193c0.036-0.233,0.137-0.464,0.357-0.63c0.325-0.246,0.979-0.07,1.3,0.181
+			c1.33,1.035,2.196,2.617,2.196,4.431c0,3.216-2.851,5.706-6.067,5.706C2.707,12.733,0,10.243,0,7.027z"/>
+		<path d="M6.037,7.629c-0.401,0-0.958-0.469-0.958-0.871v-5.59c0-0.056,0.009-0.901,0.929-0.901
+			c0.401,0,0.93,0.21,0.93,0.901v5.59C6.939,7.16,6.44,7.629,6.037,7.629z"/>
+	</symbol>
+</svg>
+<!-- /SVG LOGGED -->

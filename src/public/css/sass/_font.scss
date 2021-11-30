@@ -1,0 +1,19 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+	font-family: 'GoodDog';
+	src: url('fonts/GoodDog/GoodDog-webfont.eot'); /* IE9 Compat Modes */
+	src: url('fonts/GoodDog/GoodDog-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('fonts/GoodDog/GoodDog-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/GoodDog/GoodDog-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('fonts/GoodDog/GoodDog-webfont.svg#GoodDog') format('svg'); /* Legacy iOS */
+}
+
+
+$main-font: 'Montserrat', sans-serif;
+$paragraph-font: 'Roboto', sans-serif;
+$promo-msg-font: 'GoodDog', sans-serif;
+$light: 300;
+$normal: 400;
+$medium: 500;
+$bold: 700;

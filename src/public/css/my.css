@@ -1,0 +1,73 @@
+.my-pagination{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.my-page-item{
+    margin: 0;
+}
+
+.my-page-link{
+    margin: 0;
+    font-weight:unset;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #e9ecef;
+    transition: .2s;
+}
+
+.my-page-link:hover{
+    background-color: #eee;
+}
+
+.my-page-link.my-current-page{
+    background-color: #2E6BE8;
+    color: #fff;
+    transition: .2s;
+}
+
+.my-page-link.my-current-page:hover{
+    background-color: #4784ff;
+    color: #fff;
+}
+
+.my-page-button{
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid #e9ecef;
+    padding: 0 10px;
+    transition: .2s;
+    font-weight: unset;
+}
+
+.my-page-button:hover{
+    background-color: #eee;
+}
+
+.my-page-item:first-child .my-page-button{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.my-page-item:last-child .my-page-button{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.my-short-description{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+}
